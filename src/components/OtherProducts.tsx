@@ -29,7 +29,7 @@ import bitterguardpowderImg from "@/assets/bitterguardpowder.png";
 import carrotpowderImg from "@/assets/carrotpowder.png";
 import spinachpowderImg from "@/assets/spinachpowder.png";
 import onionpowderImg from "@/assets/onionpowder.png";
-
+import mangoslicesImg from "@/assets/mangoslices.png";
 gsap.registerPlugin(ScrollTrigger);
 
 /* ---------------- Honey ---------------- */
@@ -82,7 +82,9 @@ const fruitPowders = [
   { name: "QNF Dehydrated Raw Banana Powder", image: bananapowderImg, desc: "Raw banana powder rich in natural starch used in baby foods and health foods." },
   { name: "QNF Dehydrated Amla Powder", image: amlaImg, desc: "Vitamin C rich amla powder used in herbal supplements and wellness products." },
 ];
-
+const fruitslices = [
+  { name: "QNF Dehydrated Mango Slices", image: mangoslicesImg, desc: "Premium Dehydrated Mango Slices produced from fresh ripe mangoes using advanced dehydration technology to remove moisture while preserving natural flavor, color, and nutrients. Ideal for snacks, bakery, and food processing applications." },
+];
 /* ---------------- Vegetable Flakes ---------------- */
 
 const vegetableFlakes = [
@@ -198,7 +200,12 @@ const OtherProducts = () => {
           </h3>
           {renderProducts(fruitPowders)}
         </div>
-
+        <div className="mb-20">
+          <h3 className="font-display text-3xl font-semibold text-charcoal text-center mb-10">
+            Dehydrated <span className="text-gradient-gold">Fruit Slices</span>
+          </h3>
+          {renderProducts(fruitslices)}
+        </div>
         {/* Vegetable Flakes */}
         <div className="mb-20">
           <h3 className="font-display text-3xl font-semibold text-charcoal text-center mb-10">
