@@ -72,7 +72,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3 text-cream/50 font-body text-sm">
                 <Mail size={16} className="text-golden" />
-                qnfproducts@gmail.com
+                qamarnutritivefoodproducts@gmail.com
               </div>
               <div className="flex items-start gap-3 text-cream/50 font-body text-sm">
                 <MapPin size={16} className="text-golden mt-0.5" />
