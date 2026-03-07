@@ -8,20 +8,26 @@ gsap.registerPlugin(ScrollTrigger);
 const testimonials = [
   {
     quote: "The fried onions from QNF Products have excellent crispness and flavor. Perfect for our restaurant chain.",
-    name: "Ahmed Hussain",
-    company: "Hyderabad Biryani Restaurant",
+    name: "Satwick R",
+    company: "SV Restaurant",
     stars: 5,
   },
   {
     quote: "Consistent quality and reliable export service. Highly recommended supplier.",
-    name: "Ahmed Al-Rashid",
-    company: "Bismillah Foods Trading",
+    name: "Parikshith Gowda",
+    company: "NR Foods Trading",
     stars: 5,
   },
   {
     quote: "The dehydrated onion flakes are very convenient for our food production line.",
     name: "Sarah ",
     company: "NJK Food Industries",
+    stars: 5,
+  },
+  {
+    quote: "I can't explain the way these fried onions helps me save time,Thank you QNF ",
+    name: "Riddhi Verma",
+    company: "Riddhi's Cloud Kitchen",
     stars: 5,
   },
 ];

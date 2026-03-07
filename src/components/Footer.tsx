@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Instagram, Facebook, Linkedin, MessageCircle } from "lucide-react";
+import { MapPin, Phone, Mail, Instagram, Facebook, Linkedin, MessageCircle, Youtube } from "lucide-react";
 
 const quickLinks = [
   { label: "Home", href: "#home" },
@@ -82,9 +82,8 @@ const Footer = () => {
 
             <div className="flex gap-4 pt-2">
               {[
-                { icon: Instagram, href: "#" },
-                { icon: Facebook, href: "#" },
-                { icon: Linkedin, href: "#" },
+                { icon: Instagram, href: "https://www.instagram.com/qamarnutritivefoodproducts?igsh=MXZxcjF0eXgzNHp5eg==" },
+                { icon: Youtube, href: "https://youtube.com/@qnf-products?si=tF_YMoAHlufLVoRw" },
                 { icon: MessageCircle, href: "https://wa.me/919491291232" },
               ].map((s, i) => (
                 <a
